@@ -1,15 +1,13 @@
 body {
-    color: yellow;
     background: url("../img/fondo-dragon.jpg") ;
     background-size: cover;
     background-attachment: fixed;
     width: auto;
-    text-shadow: 2px 2px 1px black;
     
 }
 
 h1 {
-    color: lightseagreen;
+    color: lightcoral;
 }
 
 img {
@@ -37,11 +35,13 @@ a {
     text-shadow: initial;
 }
 
-div {
+.divClass, #thirdDiv {
+    color: yellow;
+    text-shadow: 2px 2px 1px black;
     margin: auto;
     display: flex;
+
     flex-direction: column;
-    
     align-items: center;
     justify-content: space-around;
 }
