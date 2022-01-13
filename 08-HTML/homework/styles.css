@@ -1,0 +1,47 @@
+body {
+    color: yellow;
+    background: url("../img/fondo-dragon.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    text-shadow: 2px 2px 1px black;
+    
+}
+
+h1 {
+    color: lightseagreen;
+}
+
+img {
+    width: 400px;
+    
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background: lightslategrey;
+    padding: 50px;
+    border: 10px ridge violet;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+a {
+    /* display: inline-block; */
+    margin-bottom: 40px;
+    color: whitesmoke;
+    text-shadow: initial;
+}
+
+div {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-around;
+}
